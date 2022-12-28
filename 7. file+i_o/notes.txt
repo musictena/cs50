@@ -14,3 +14,13 @@ ValueError is shown due to the break of 3 values, you can solve due the changing
 THere is a python library that exists to read and write csv files
 the categories can we placed in the csv file
 a DictReader is used to read a dictionary of columns, lots of columns can be added
+to create a 
+
+From PIL import Image = is to import the pillow library tat is used for animation. it will open the image in a way that you can manipulate it
+arg= arguemnt
+append is used place something into a list
+you can used _.save() to save this file. There is no need to open, writing and closing
+save_all=True: is used to save all the files that are passed through it
+append_images[images[1]]= is used to append the first image
+duration within the save can be used to specify the time the frames move
+loop=0: is used to indefinitly have it on repeat 
