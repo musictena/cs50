@@ -4,3 +4,13 @@ file i/o = writing code that can be read from (loads infomation from) or
 open = is used to store a piece of infomation that has been recently added in to a file
 with =  open and autmatically close a file
 csv = comma-seperates values = a common convention to stroe multipple pieces of info that are related in the same file
+rstrip removes the thing inside the bracket
+dictionary is classified by {}
+list of dictionary is used because a each of those dictionary has a student and each one has a house, and we want to maintain that association
+key-value pairs are used because it uses that associationsorted includes the funciton collection of ()
+lambda function=an anoymouse function, is used for one purpose, more parameters are specified through commas
+#key=lambda student: student["name"]
+ValueError is shown due to the break of 3 values, you can solve due the changing the line, or you can put quotes around it
+THere is a python library that exists to read and write csv files
+the categories can we placed in the csv file
+a DictReader is used to read a dictionary of columns, lots of columns can be added
