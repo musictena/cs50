@@ -1,0 +1,6 @@
+file i/o = writing code that can be read from (loads infomation from) or 
+            write to (save infomation-files to themselves)
+            --> essentially saves files persistently
+open = is used to store a piece of infomation that has been recently added in to a file
+with =  open and autmatically close a file
+csv = comma-seperates values = a common convention to stroe multipple pieces of info that are related in the same file

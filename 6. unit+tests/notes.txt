@@ -1,0 +1,12 @@
+assert =  shows something is true, if that occurs then nothing happens, if it is incorrect you will 
+            see a error message
+Assertionerror: when the condition fails this error occurs
+Pytest: a third part library that will automate the testing, it tests sections of your code
+Unit testing: testing functions that you  have written
+
+TypeError: wrong type of string or input
+
+__init__.py: used to create a package in python
+    if you include this in a folder it becomes a visual indicator to 
+    python to treat everything in that folder as a package
+    --> hence you can run pytest on any of the tests and it will work

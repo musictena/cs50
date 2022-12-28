@@ -1,0 +1,51 @@
+Libraries are code that others have written to assist others.
+Modules in python are a library that has one or more function built into into
+libraries are used to reduece reusability
+
+python comes with a 'random.py' library (modules), has functions to make things be random.
+docs.python.org/3/library/random.html
+
+keyword 'import' allows you to import some modules in python
+random.choice(seq), exists within the 'random' module
+
+from is a kqyword that will only call the cfunction from a module
+random.randint(a,b); random number between the two numbers
+random.shuffle(x); takes a list of things and it shuffles them
+
+
+library: statics; calculate means, modes
+
+command-line arguements = allows u to provide is when u exectue it at the command line (eg. python hello.py)
+
+sys= system contains the functionality for the system 
+sys.asrv = arguement vector, which is a list of all the commands that the user provides before the press enter, the first element is going to be the first word you type etc.
+
+indexError: assuming something is at location one but it isn't there
+
+slices: to take a slice of a list, to take a subset of a data structure
+eg. (for arg in sys.argv[1:]) <- start from one ; if you use a negative 1 (-1) then it minuses one from the list
+
+packages: a module implemented in a folder. it is a third party library to gain more functionality
+    you can get this from pypi.org
+
+cowsay: a package to allow a cow to say something
+to get a package into a system is to use a package manager which is a prgram that allows u to download packages via 'pip'
+another is trex
+--> essentially it displays a specified animal that says a specific string
+
+
+the point of using command line arguements is to is because it's faster because it's easy to configure your software
+
+api = application programming interfaces: usually refer to third praty services that live on th internet
+
+
+another package is using api: request library allows you to make web requests, it can be used to automate
+json is a programming language that is standard in a standard way based on search terms
+
+
+sys.argv is used to break the whole programming while break is to break from a function
+
+
+we can also make your own libraries 
+
+__name__ is used to when you run a command from the commandline
