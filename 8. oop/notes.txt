@@ -1,0 +1,22 @@
+- to return two values you can seperate it using a comma between two variables. This is called a tuple. 
+- to store the return value you can list the to varibles next to the function eg. name, house = fun()
+* you don't need to use the same vaibles fro each function
+
+- Tuple: is a anoter type of date in python that;s a collection of values (eg. x,y,z) and is similar to a list
+    - it also cannot be modified (immutable)
+        - if you override it by trying to change it, a TypeError will occur
+        - to override it and change the contents use []
+            - list can change, tuple cannot change
+            -  lists are defined by []
+            - tuples are defined by ()
+            - when you access it you use [no.]
+            - dictionaries are mutable
+    - tuples can have vairbles inside of them
+    - it's similar to a list because in a list you have two things while in one tuple you ave two things
+    - eg. return (name,house) or return name,house
+        - the parenthesis are used to show that there is one clause with two things
+    - tuple's are used to not allow anyone to change the varibles
+    - 
+
+- Immutable: you can't change it, in regards to oop
+
