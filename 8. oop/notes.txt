@@ -20,3 +20,25 @@
 
 - Immutable: you can't change it, in regards to oop
 
+Classes
+
+- To create a child class use a dot after the class. These are called attributes
+    - eg. student = student.class
+- When you use a class you create objects aka instances
+    - The correct teriminology for them is instance variables
+- Best technique for classes is to create variables then put it into a function
+    - eg. 
+        ~ varible1=1 
+        ~ vairble2=2 
+        ~ student=Student(varible1, varible2) #constructor call
+            - Constructor call: Will construct the object in the same way (the class) but can be individually modified (user can change the name and house)
+    - allows for error checking
+- Methods (instance method): functions inside of class 
+    - these allow you to determine behaviour in a special sense
+    - you can make varible optionable by having a default of none in the parameters of the method
+    - Self: within a Instance method is used to give you access to the current object that was just created
+- Encapsulation: 
+    - A key idea within OOP that recommendends that you put all the functionality (eg. validation) insde of the class
+-  Exceptions:
+    - Phythonic="Raise": to create your own exceptions when something goes wrong
+        - eg. raise ValueError("missing house")
