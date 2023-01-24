@@ -1,7 +1,3 @@
-- to return two values you can seperate it using a comma between two variables. This is called a tuple. 
-- to store the return value you can list the to varibles next to the function eg. name, house = fun()
-* you don't need to use the same vaibles fro each function
-
 - Tuple: is a anoter type of date in python that;s a collection of values (eg. x,y,z) and is similar to a list
     - it also cannot be modified (immutable)
         - if you override it by trying to change it, a TypeError will occur
@@ -36,9 +32,35 @@ Classes
 - Methods (instance method): functions inside of class 
     - these allow you to determine behaviour in a special sense
     - you can make varible optionable by having a default of none in the parameters of the method
-    - Self: within a Instance method is used to give you access to the current object that was just created
+    - always call self
+    - __str__:
+        - Self: within a Instance method is used to give you access to the current object that was just created
+        - called automatically
+    - __init__: 
+        - to return two values you can seperate it using a comma between two variables. This is called a tuple. 
+        - to store the return value you can list the to varibles next to the function eg. name, house = fun()
+        * you don't need to use the same vaibles fro each function
+        -  called automatically
+    - self-created method:
+        - you can use it within or outside of a class
+        -  to refer to it you have to use the name of the class.method
+    - Getter:
+        -  a function for a class that gets some attributes
+        - to tell python to treat this property as a getter use @property
+    - Setter:
+        - a function in a class that sets some value
+        - use a decorator that is similar to the getter and put ".setter"
 - Encapsulation: 
     - A key idea within OOP that recommendends that you put all the functionality (eg. validation) insde of the class
 -  Exceptions:
     - Phythonic="Raise": to create your own exceptions when something goes wrong
         - eg. raise ValueError("missing house")
+- Properties:
+    - an attribute that has defense mechanisms (functionlity) from messing up attribute
+    - @property: 
+        - a function that allows you to decorate functions (aka define properties)
+    - decorators:
+        - functions that modify the behaviour of other function
+-  Adverserial change:
+    - change that is inputted into the code manually and machine learnign doesn't recognise the problem
+    - to reduce this use getter and setter
